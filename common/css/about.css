@@ -1438,3 +1438,17 @@ background: linear-gradient( to right, #000000 0%, #000000 32%, #000000 32%, #ff
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: white;
 }
+@media (max-height: 630px){
+.section-quote__content {
+    height:300px;
+}
+.ballas {
+  height:500px;
+}
+section.voidwalker.section.lg\:flex {
+  height:650px;
+}
+#scroll-content > section.voidwalker.\|.section.flex-col.lg\:max-w-7xl > div > figure > img{
+  display:none;
+}
+}
