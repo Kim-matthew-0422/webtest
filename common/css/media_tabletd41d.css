@@ -11,6 +11,17 @@
 .car h3{
 display:none;
 }
+.car {
+    margin: 0px 0 -2px !important;
+}
+.simple.text .inner .main h8 {
+    font-size: 12px;
+    line-height: 12px;
+}
+.simple.text .inner .intro h7 {
+    font-size: 14px;
+    line-height: 14px;
+}
 #section6 > div > div.two.columns.block > div{
   display:none;
 }
