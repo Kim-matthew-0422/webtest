@@ -4,6 +4,7 @@
 html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;}
+
 body {
     margin: 0;
     font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple
@@ -1261,7 +1262,12 @@ opacity: 1;
 .lh-1 {
     line-height: 1;
 }
-
+@media only screen and (max-width: 1023px){
+html{
+  overflow: scroll;
+-webkit-overflow-scrolling: touch;
+}
+}
 
 @media only screen and (max-width: 1440px){
 .h-intro-rotate {
@@ -1417,7 +1423,7 @@ background: linear-gradient( to right, #000000 0%, #000000 32%, #000000 32%, #ff
 }
 
 
-@media (max-width: 750px) {
+@media (max-width: 1023px) {
    .sven{
      display:none;
    }
