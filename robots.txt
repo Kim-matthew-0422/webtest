@@ -1,0 +1,7 @@
+User-agent: *
+
+Disallow: /admint/
+Disallow: /bbs/
+
+sitemap: https://kim-matthew-0422.github.io/webtest/sitemap.xml
+

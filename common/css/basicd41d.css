@@ -1,0 +1,221 @@
+/************************************************************************
+ * 설명       :   기본 스타일시트
+ * 작성자     :   (주)웨이투원
+ * 파일명     :   basic.css
+!important
+************************************************************************/
+
+/*
+ * Nanum Barun Gothic (Korean) http://hangeul.naver.com
+ */
+
+*:focus { outline:none; }
+
+body, input, textarea, select, button, table{margin:0; font-size:18px; font-family: "Beausite",sans-serif;,  Helvetica, AppleGothic, Sans-serif; color:#555}
+body, h3, h4, h5, dl, dt, dd, ul, li, ol, th, td, p, form, fieldset, legend, button { margin: 0; padding: 0; }
+h2 {
+  -webkit-text-size-adjust: 100%;
+--swiper-theme-color: #007aff;
+--swiper-navigation-size: 44px;
+font-family: "Beausite",sans-serif;
+font-weight: 300;
+font-style: normal;
+-webkit-font-smoothing: antialiased;
+font-size: 22px;
+line-height: 28px;
+padding: 0;
+box-sizing: border-box;
+color: white;
+margin: 0 0 2px;
+}
+h3 {
+  font-family: "Beausite",sans-serif;
+font-weight: 300;
+font-style: normal;
+word-break: keep-all;
+-webkit-text-size-adjust: 100%;
+--swiper-theme-color: #007aff;
+--swiper-navigation-size: 44px;
+-webkit-font-smoothing: antialiased;
+font-size: 22px;
+line-height: 28px;
+padding: 0;
+box-sizing: border-box;
+color: #1B7060;
+grid-column: 2/span 3;
+margin: 0 0 68px;
+}
+
+img {max-width:100%;}
+img, fieldset{border:0 none}
+dl, ul, ol, li {list-style: none outside none;}
+button{border:0 none; cursor:pointer; display: block;}
+table {border-collapse:collapse;}
+
+img {vertical-align:top;}
+li img { vertical-align:top;}
+td img { vertical-align:middle;}
+.cursor { cursor: pointer;}
+
+strong, .strong , b { font-weight: 500;}
+address, caption, cite, code, dfn, em, var {font-style:normal;}
+
+hr { clear:both; display: none; }
+.blind, legend, caption {display:none;}
+
+a {text-decoration:none; color:#555;}
+a:hover, a:active, a:focus {text-decoration:none;}
+table a:hover, table a:active {text-decoration:underline;}
+table a.nonehoverline { text-decoration:none; }
+
+input, select, textarea {vertical-align:middle; line-height:130%}
+input, textarea, select { border-width:1px; border-style: solid; border-color:#dfdfdf; background:#fff; outline:0;}
+input[type=button],
+input[type=submit],
+textarea {border-radius:0; -webkit-border-radius:0; appearance:none; -webkit-appearance:none;}
+select {height:50px; box-sizing:border-box; border-radius:0; -webkit-border-radius:0;}
+input.text {padding:0px 10px; height:50px; color:#666; box-sizing:border-box; border-radius:0; -webkit-border-radius:0; appearance:none; -webkit-appearance:none; box-sizing:border-box;}
+input.file {height:30px; border:1px solid #ddd;}
+input.check	{border:none; background:none;}
+input.radio	{border:0 none; background:none;}
+textarea.textarea {height:120px; padding:10px; box-sizing:border-box;}
+label {cursor:pointer;}
+.button {border:0 none; cursor:pointer}
+
+input::placeholder {font-weight:300; color:#999; opacity:1;}
+input::-moz-placeholder { /* Firefox 19+ */ font-weight:300; color:#999; opacity:1;}
+input:-moz-placeholder { /* Firefox 4 - 18 */ font-weight:300; color:#999; opacity:1;}
+input::-webkit-input-placeholder { /* Chrome, Safari, Opera */ font-weight:300; color:#999; opacity:1;}
+input::-ms-input-placeholder { /* Edge */ font-weight:300; color:#999; opacity:1;}
+input:-ms-input-placeholder { /* Edge */ font-weight:300; color:#999; opacity:1;}
+
+/* .ft_b {font-family:'NanumBarunGothic', NanumBarunGothic, Sans-serif !important;} */
+
+/* btn */
+.BtnArea {margin-top:30px; text-align:center;}
+.button {border:0 none; cursor:pointer}
+
+.btn_gray {width:80px; height:35px; line-height:33px; font-size:13px; background:url('images/common/btn/btn_bg1.gif') repeat-x left top; padding:0px; margin-left:1px; display:inline-block; color:#666; text-decoration:none; text-align: center; border:1px solid #ccc; cursor:pointer; border-radius:2px;}
+.btn_gray2 {width:160px; height:53px; line-height:53px; font-size:18px; font-weight:500; padding:0px; display:inline-block; color:#222; text-decoration:none; text-align:center; border:1px solid #555; cursor:pointer;}
+.btn_gray3 {width:135px; height:40px; background:#666; color:#fff; text-align:center; line-height:40px; font-weight:600; font-size:15px; border-radius:2px;}
+
+.btn_red {width:80px; height:35px; line-height:33px; font-size:13px; background:url('images/common/btn/btn_bg1.gif') repeat-x left top; padding:0px; margin-left:1px; display:inline-block; color:#a38c6a; text-decoration:none; text-align:center; border:1px solid #a38c6a; cursor:pointer; border-radius:2px;}
+.btn_red2 {width:160px; height:53px; line-height:53px;  font-size:18px; font-weight:500; padding:0px; display:inline-block; color:#a38c6a; text-decoration:none; text-align:center; border:1px solid #a38c6a; cursor:pointer;}
+.btn_red3 {display:inline-block; width:92px; height:25px; margin-top:15px; background:url('images/common/btn/btn_bg1.gif') repeat-x 0 0; padding:0; word-spacing:3px; text-align:center; line-height:25px; color:#a38c6a; font-size:12px; border:1px solid #a38c6a; }
+.btn_red4 {width:135px; height:40px; background:#a38c6a; color:#fff; text-align:center; line-height:40px; font-weight:600; font-size:15px; border-radius:2px;}
+
+.btn_black {width:80px; height:35px; line-height:33px; font-size:13px; background:url('images/common/btn/btn_bg1.gif') repeat-x left top; padding:0 5px; margin-left:1px; display:inline-block; color:#444; text-decoration:none; text-align: center; border:1px solid #777; cursor:pointer; border-radius:2px;}
+.btn_black.rebod { border-color:#ccc; }
+
+.btn_login {display:block; width:131px; height:85px; border:none; background:#a38c6a; font-size:16px; font-weight:500; color:#fff; text-align:center; line-height:85px; cursor:pointer; border-radius:2px;}
+.btn_search {width:80px; height:35px; cursor:pointer; line-height:35px; font-size:14px; padding:0px; margin-left:1px; display:inline-block; color:#444; text-decoration:none; text-align: center; border:1px solid #777; border-top-color:#999; border-bottom-color:#444; border-radius:2px;}
+.btn_prnext {width:30px; height:30px; cursor:pointer; line-height:28px; font-size: 13px; background:url('images/common/btn/btn_bg1.gif') repeat-x left top; padding: 0px;display: inline-block;color:#666; text-decoration:none; text-align: center; border:1px solid #ccc; border-top-color:#ddd; border-bottom-color:#bbb; border-radius:2px;}
+.btn_comment {width:80px; height:52px; border:none; line-height:51px; font-size:13px; background:#999 !important; padding:0px; display:inline-block; color:#fff; text-decoration:none; text-align:center; cursor:pointer; border-radius:2px;}
+
+.btn_balckLine {display:inline-block; width:255px; height:56px; border:1px solid #555;  font-size:18px; font-weight:600; color:#222; text-align:center; vertical-align:top; border-radius:30px; box-sizing:border-box; line-height:56px; -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; -o-transition: all 0.5s ease; transition: all 0.5s ease;}
+.btn_balckLine:hover {border-color:#222; background:#222; color:#fff;}
+
+
+/* margin */
+.mgT30 { margin-top:30px; }
+
+/* align */
+.alignL {text-align:left !important}
+.alignR {text-align:right !important}
+.alignC {text-align:center !important}
+.alignJ{text-align:justify !important;}
+.clear {clear:both !important}
+.floatL {float:left !important}
+.floatR {float:right !important}
+img.imgT {vertical-align:top !important}
+img.imgB {vertical-align:bottom !important}
+img.imgC {vertical-align:middle !important}
+.vaT {vertical-align:top !important;}
+.vaB {vertical-align:bottom !important;}
+
+/*color*/
+.red{color:#dd0000 !important}
+.blue {color:#2e4f9e !important;}
+.skyblue {color:#a18c6a !important;font-weight: bold; font-style: italic;}
+
+
+
+/*============================================================*/
+/*======================= PC 1024 px ~ =======================*/
+/*============================================================*/
+@media only screen and (max-width:1024px){
+body, input, textarea, select, button, table {font-size:17px; font-weight:400; letter-spacing:-0.5px;}
+
+select,
+input.text,
+input.file {height:30px;}
+
+/* btn */
+.btn_gray2,
+.btn_red2 {width:150px; height:50px; font-size:17px; line-height:48px;}
+
+.btn_balckLine {width:225px; height:50px; font-size:17px; line-height:48px;}
+
+}
+
+
+/*===============================================================*/
+/*======================= Tablet 850 px ~ =======================*/
+/*===============================================================*/
+@media only screen and (max-width:850px){
+
+
+}
+
+/*===============================================================*/
+/*======================= Tablet 768 px ~ =======================*/
+/*===============================================================*/
+@media only screen and (max-width:768px){
+body, input, textarea, select, button, table {font-size:16px;}
+
+
+
+}
+
+/*===============================================================*/
+/*======================= Mobile 640 px ~ =======================*/
+/*===============================================================*/
+@media only screen and (max-width:640px){
+body, input, textarea, select, button, table {font-size:13px;}
+select {height:35px;}
+input.text {height:35px; padding:0 2%;}
+input.file {height:30px;}
+textarea.textarea {padding:2%;}
+
+/* btn */
+.btn_gray,
+.btn_red,
+.btn_black {width:55px; height:30px; font-size:11px; line-height:28px;}
+.btn_search {width:15%; height:30px; line-height:30px; font-size:12px;}
+
+.btn_red2,
+.btn_gray2 {height:45px; font-size:15px; line-height:43px;}
+
+.btn_balckLine {width:180px; height:45px; font-size:15px; line-height:43px;}
+
+}
+
+/*===============================================================*/
+/*======================= Mobile 520 px ~ =======================*/
+/*===============================================================*/
+@media only screen and (max-width:520px){
+
+}
+
+/*===============================================================*/
+/*======================= Mobile 320 px ~ =======================*/
+/*===============================================================*/
+@media only screen and (max-width:320px){
+
+/* btn */
+.btn_red2,
+.btn_gray2 {height:42px; font-size:14px; line-height:40px;}
+
+.btn_balckLine {width:160px; height:42px; font-size:14px; line-height:40px;}
+
+}

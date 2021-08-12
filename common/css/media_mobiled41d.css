@@ -1,0 +1,174 @@
+/*===============================================================*/
+/*======================= Mobile 640 px ~ =======================*/
+/*===============================================================*/
+@media only screen and (max-width:640px){
+.pct {display:none !important;}
+.tablet {display:none !important;}
+.mobile {display:block !important;}
+img.tablet_img {display:none;}
+img.pct_img {display:none;}
+img.mobile_img {display:block;}
+table.mobile {display:table;}
+
+/*header*/
+#header .inner,
+#header.activeHeader .inner {height:70px;}
+#header h1 {top:14px;padding-left:40px;}
+#header h3 {top:14px;padding-left:40px;}
+#header h1 a,
+
+#header.activeHeader h1 a {width:60px; height:41px;}
+.sub #header .inner {height:70px;}
+.sub #header h1 {top:14px;}
+.sub #header h1 a {width:70px; height:41px;}
+
+#header .util a {font-size:14px; line-height:21px;}
+#header .btn_allmenu {width:25px; height:22px;}
+
+.btn_chat {width:70px; bottom:35px;}
+
+/* allmenu */
+#allMenu {width:75%; left:-75%;}
+#allMenu .allH {height:70px;}
+#allMenu .allH a {width:18px;}
+#allMenu ul li {font-size:17px; line-height:55px;}
+#allMenu ul li .icon {width:22px; height:22px; margin-right:2vw;}
+
+/* 메인비주얼 */
+#mainVisual .TxtArea strong {font-size:30px;}
+#mainVisual .TxtArea .info_txt {margin-top:10px; font-size:16px; line-height:1.4;}
+#mainVisual .slide-controls {bottom:35px;}
+#mainVisual .slide-controls .slick-dots li {margin-right:14px;}
+#fullpage .icon_scroll {bottom:40px;}
+#fullpage .icon_scroll span {padding-top:30px; background-size:16px; font-size:16px;}
+
+/*main contents */
+.mainConWrap .mainTitleArea {margin-bottom:3.5vh;}
+.mainConWrap .mainTitleArea h2 {font-size:30px;}
+.mainConWrap .mainTitleArea p {font-size:14px; line-height:1.4;}
+.mainConWrap .section {/* padding:5vh 0 15vh 0; */ box-sizing:border-box;}
+.mainConWrap #section1.section,
+.mainConWrap #section5.section {padding:0;}
+.btn_top {width:45px; height:45px; margin-left:-22.5px; bottom:40px; background-image:url('../../images/common/btn/btn_top_m.png');}
+
+
+.mainConWrap #section2 {background-image:url('images/main/main_s02_bg_m.jpg');}
+.mainConWrap #section2 .business_list ul { padding:0 4%; }
+.mainConWrap #section2 .business_list ul li { font-size:14px;}
+.mainConWrap #section2 .business_list ul li a {padding:5%; padding-right:88px; }
+.mainConWrap #section2 .business_list ul li .icon {width:40px;}
+.mainConWrap #section2 .business_list ul li .icon.icon_01 {background-image:url('../../images/main/business_01_m.png');}
+.mainConWrap #section2 .business_list ul li .icon.icon_02 {background-image:url('../../images/main/business_02_m.png');}
+.mainConWrap #section2 .business_list ul li .icon.icon_03 {background-image:url('../../images/main/business_03_m.png');}
+.mainConWrap #section2 .business_list ul li a:hover .icon.icon_01 {background-image:url('../..images/main/business_01_m_ov.png');}
+.mainConWrap #section2 .business_list ul li a:hover .icon.icon_02 {background-image:url('../../images/main/business_02_m_ov.png');}
+.mainConWrap #section2 .business_list ul li a:hover .icon.icon_03 {background-image:url('../../images/main/business_03_m_ov.png');}
+.mainConWrap #section2 .business_list ul li .txt {width:calc(100% - 45px); padding-left:3.5%; padding-right:0px;}
+.mainConWrap #section2 .business_list ul li strong {font-size:16px;}
+.mainConWrap #section2 .business_list ul li p {padding-top:4px; line-height:1.4; font-size:13px;}
+.mainConWrap #section2 .business_list ul li .go {right:2%; font-size:13px;}
+.mainConWrap #section2 .business_list ul li .go:before { content:none; }
+.mainConWrap #section2 .business_list ul li .go:after { content:none; }
+
+.mainConWrap #section3 .btn_balckLine {margin-top:3vh;}
+
+.mainConWrap #section4 {background-color: #1b1b1b;}
+.mainConWrap #section4 .mainTitleArea {margin-bottom:8vh;}
+.mainConWrap #section4 ul li { width:100%; margin-left:0;   }
+.mainConWrap #section4 ul li + li { margin-top:5%; }
+.mainConWrap #section4 ul li a {/* height:275px; */ height:auto;  padding:5% 4%;}
+.mainConWrap #section4 ul li .tt {font-size:17px;}
+.mainConWrap #section4 ul li p {font-size:13px;}
+.mainConWrap #section4 ul li .go { position:relative; left:auto; bottom:auto; font-size:13px;}
+.mainConWrap #section4 ul li .go:before { content:none; }
+.mainConWrap #section4 ul li .go:after { content:none; }
+
+/*sub contents*/
+#subVisual {height:160px;}
+#subVisual.subVsal01 {background-image:url('../../images/contents/subvisual_01_m.jpg');}
+#subVisual .subv-title {padding-top:70px;}
+#subVisual .subv-title h2 {font-size:24px; /* line-height:150px; */ padding:0 10px;}
+.sub #contents .TitleArea {margin-bottom:10%;}
+.sub #contents .TitleArea h3 {font-size:20px;}
+.sub #contents .TitleArea p {padding-top:4%; font-size:16px; word-break:kee-all; line-height:1.5;}
+.sub #contents h4 {margin-bottom:4%; font-size:19px;}
+
+.contentsArea .section {padding:10% 0;}
+
+
+.mainConWrap #section3 .mainTitleArea h2 { padding-bottom:4vw; }
+
+
+
+
+.mainConWrap #section4 ul li a i { width:35px; height:33px;  }
+
+
+
+
+.contentsArea .bigTxt01 { font-size:16px;  }
+
+
+.contentsArea.service .serviceList03 li { font-size:15px;  }
+
+/* 번역·통역 서비스 */
+.contentsArea.service .serviceList01 li {font-size:13px; line-height:22px; vertical-align:top;}
+.contentsArea.service .serviceList03 li {font-size:13px;}
+
+
+/* footer */
+#foot {padding:8% 0;}
+#foot .f_util li {padding-left:25px; font-size:14px;}
+#foot address {padding-top:5%; font-size:13px;}
+#foot .copy {padding-top:4%; font-size:11px;}
+
+
+
+
+
+
+
+
+
+/* 관리자 로그인 */
+div#box {width:90%; left:5%; padding:6% 5%; margin-bottom:-50%; border-width:3px; margin-left:0; box-sizing:border-box;}
+div#p_input span.label {width:24%;}
+div#box .login_center {padding:6% 0;}
+div.login_foot {margin-top:6%;}
+.divbox .text {width:50%;}
+
+}
+
+/*===============================================================*/
+/*======================= Mobile 520 px ~ =======================*/
+/*===============================================================*/
+@media only screen and (max-width:520px){
+
+}
+
+/*===============================================================*/
+/*======================= Mobile 320 px ~ =======================*/
+/*===============================================================*/
+@media only screen and (max-width:320px){
+
+/* 메인비주얼 */
+#mainVisual .TxtArea strong {font-size:35px;}
+#mainVisual .TxtArea .info_txt {font-size:18px;}
+
+/*main contents */
+.mainConWrap .mainTitleArea h2 {font-size:18px;}
+.mainConWrap .mainTitleArea p {font-size:12px; line-height:1.2;}
+
+.mainConWrap #section2 .business_list ul li a { padding-right: 54px; padding-top:3%; padding-bottom:3%;}
+.mainConWrap #section2 .business_list ul li p { font-size:11px; line-height:1.2;}
+.mainConWrap #section2 .business_list ul li {font-size:13px;}
+.mainConWrap #section2 .business_list ul li .icon {width:35px; height:35px;}
+.mainConWrap #section2 .business_list ul li strong {font-size:12px; line-height:1.2;}
+.mainConWrap #section2 .business_list ul li .go {font-size:11px; width:34px;}
+
+.mainConWrap #section4 ul li a {height:250px;}
+.mainConWrap #section4 ul li .tt {font-size:18px;}
+.mainConWrap #section4 ul li p {font-size:13px;}
+.mainConWrap #section4 ul li .go {font-size:15px;}
+
+}
