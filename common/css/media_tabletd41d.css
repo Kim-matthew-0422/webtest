@@ -22,6 +22,14 @@ display:none;
     font-size: 14px;
     line-height: 14px;
 }
+.c-Item__content p {
+    margin-bottom: 0;
+    line-height: 1;
+    font-size: 15px;
+    font-size: .7775rem !important;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
 #section6 > div > div.two.columns.block > div{
   display:none;
 }
