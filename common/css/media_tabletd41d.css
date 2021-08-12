@@ -1,6 +1,46 @@
 /*============================================================*/
 /*======================= Tablet 1024 px ~ =======================*/
 /*============================================================*/
+
+
+@media only screen and (max-height:620px){
+  #header .inner, #header.activeHeader .inner {
+
+    display: none;
+}
+.car h3{
+display:none;
+}
+#section6 > div > div.two.columns.block > div{
+  display:none;
+}
+figure.c-Item__image {
+    display: none;
+}
+#section6 > div {
+    padding-top: 10px;
+}
+#fullpage .icon_scroll span{
+  display:none;
+}#mainVisual .TxtArea strong
+{
+  font-size:15px;
+}
+#fullpage.pc_auto_height #mainVisual .TxtArea strong{
+  font-size:15px;
+}#fullpage.pc_auto_height #mainVisual .TxtArea .info_txt {
+  font-size:15px;
+}
+.full.page {
+    height: 100%;
+}
+.hh {
+    padding: 100px 0 50px;
+}
+div#grey {
+    height: 800px;
+}
+}
 @media only screen and (max-width:1024px){
 .pc {display:none !important;}
 .tablet {display:block !important;}
@@ -29,7 +69,7 @@ img.attachment-project_thumbnail.size-project_thumbnail {
 .sub #header h1 a {width:100px; height:58.8px;}
 #header h3 .logo_w {padding-left:50px;}
 #header h3 .logo  {padding-left:50px;}
-#header .btn_allmenu {display:block; position:absolute; top:50%; transform:translateY(-35%); right:0; width:38px; height:30px;}
+#header .btn_allmenu {display:block; position:absolute; top:50%; transform:translateY(-35%); right:35px; width:38px; height:30px;top:30px; }
 #header .btn_allmenu img {position:absolute; top:0; left:0;}
 #header .btn_allmenu img.menu_w {opacity: 1; filter:alpha(opacity=1); -mox-opacity:1;}
 #header .btn_allmenu img.menu {opacity: 0; filter:alpha(opacity=0); -mox-opacity:0;}

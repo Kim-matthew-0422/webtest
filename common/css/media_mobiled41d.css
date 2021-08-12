@@ -11,7 +11,7 @@ img.mobile_img {display:block;}
 table.mobile {display:table;}
 
 /*header*/
-#header .inner,
+#header .inner {display:none;},
 #header.activeHeader .inner {height:70px;}
 #header h1 {top:14px;padding-left:40px;}
 #header h3 {top:14px;padding-left:40px;}
@@ -52,7 +52,6 @@ table.mobile {display:table;}
 .btn_top {width:45px; height:45px; margin-left:-22.5px; bottom:40px; background-image:url('../../images/common/btn/btn_top_m.png');}
 
 
-.mainConWrap #section2 {background-image:url('images/main/main_s02_bg_m.jpg');}
 .mainConWrap #section2 .business_list ul { padding:0 4%; }
 .mainConWrap #section2 .business_list ul li { font-size:14px;}
 .mainConWrap #section2 .business_list ul li a {padding:5%; padding-right:88px; }
@@ -90,8 +89,8 @@ table.mobile {display:table;}
 #subVisual .subv-title h2 {font-size:24px; /* line-height:150px; */ padding:0 10px;}
 .sub #contents .TitleArea {margin-bottom:10%;}
 .sub #contents .TitleArea h3 {font-size:20px;}
-.sub #contents .TitleArea p {padding-top:4%; font-size:16px; word-break:kee-all; line-height:1.5;}
-.sub #contents h4 {margin-bottom:4%; font-size:19px;}
+.sub #contents .TitleArea p {padding-top:4%; font-size:12px; word-break:kee-all; line-height:1.5;}
+.sub #contents h4 {margin-bottom:4%; font-size:19px !important;}
 
 .contentsArea .section {padding:10% 0;}
 

@@ -923,7 +923,7 @@ function correctRadius (radius) {
 }
 
 mickey.addEventListener('mousedown', function (e) {
-    var posX = scaleByPixelRatio(e.offsetX) - (scaleByPixelRatio(e.offsetX) /2);
+    var posX = scaleByPixelRatio(e.offsetX) * 0.65 ;
     var posY = scaleByPixelRatio(e.offsetY);
     var pointer = pointers.find(function (p) { return p.id == -1; });
     if (pointer == null)
@@ -934,7 +934,7 @@ mickey.addEventListener('mousedown', function (e) {
 mickey.addEventListener('mousemove', function (e) {
     var pointer = pointers[0];
     if (!pointer.down) { return; }
-    var posX = scaleByPixelRatio(e.offsetX) - (scaleByPixelRatio(e.offsetX) /2);
+    var posX = scaleByPixelRatio(e.offsetX) * 0.65;
     var posY = scaleByPixelRatio(e.offsetY);
     updatePointerMoveData(pointer, posX, posY);
 });
@@ -949,7 +949,7 @@ mickey.addEventListener('touchstart', function (e) {
     while (touches.length >= pointers.length)
         { pointers.push(new pointerPrototype()); }
     for (var i = 0; i < touches.length; i++) {
-        var posX = scaleByPixelRatio(touches[i].pageX) - (scaleByPixelRatio(e.offsetX) /2);
+        var posX = scaleByPixelRatio(touches[i].pageX) * 0.65;
         var posY = scaleByPixelRatio(touches[i].pageY);
         updatePointerDownData(pointers[i + 1], touches[i].identifier, posX, posY);
     }
@@ -961,7 +961,7 @@ mickey.addEventListener('touchmove', function (e) {
     for (var i = 0; i < touches.length; i++) {
         var pointer = pointers[i + 1];
         if (!pointer.down) { continue; }
-        var posX = scaleByPixelRatio(touches[i].pageX) - (scaleByPixelRatio(e.offsetX) /2);
+        var posX = scaleByPixelRatio(touches[i].pageX) * 0.65;
         var posY = scaleByPixelRatio(touches[i].pageY);
         updatePointerMoveData(pointer, posX, posY);
     }

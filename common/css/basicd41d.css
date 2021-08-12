@@ -13,38 +13,10 @@
 
 body, input, textarea, select, button, table{margin:0; font-size:18px; font-family: "Beausite",sans-serif;,  Helvetica, AppleGothic, Sans-serif; color:#555}
 body, h3, h4, h5, dl, dt, dd, ul, li, ol, th, td, p, form, fieldset, legend, button { margin: 0; padding: 0; }
-h2 {
-  -webkit-text-size-adjust: 100%;
---swiper-theme-color: #007aff;
---swiper-navigation-size: 44px;
-font-family: "Beausite",sans-serif;
-font-weight: 300;
-font-style: normal;
--webkit-font-smoothing: antialiased;
-font-size: 22px;
-line-height: 28px;
-padding: 0;
-box-sizing: border-box;
-color: white;
-margin: 0 0 2px;
-}
-h3 {
-  font-family: "Beausite",sans-serif;
-font-weight: 300;
-font-style: normal;
-word-break: keep-all;
--webkit-text-size-adjust: 100%;
---swiper-theme-color: #007aff;
---swiper-navigation-size: 44px;
--webkit-font-smoothing: antialiased;
-font-size: 22px;
-line-height: 28px;
-padding: 0;
-box-sizing: border-box;
-color: #1B7060;
-grid-column: 2/span 3;
-margin: 0 0 68px;
-}
+
+
+
+
 
 img {max-width:100%;}
 img, fieldset{border:0 none}
@@ -218,4 +190,36 @@ textarea.textarea {padding:2%;}
 
 .btn_balckLine {width:160px; height:42px; font-size:14px; line-height:40px;}
 
+}
+h2 {
+  -webkit-text-size-adjust: 100%;
+--swiper-theme-color: #007aff;
+--swiper-navigation-size: 44px;
+font-family: "Beausite",sans-serif;
+font-weight: 300;
+font-style: normal;
+-webkit-font-smoothing: antialiased;
+font-size: 22px;
+line-height: 28px;
+padding: 0;
+box-sizing: border-box;
+color: white;
+margin: 0 0 2px;
+}
+h3 {
+  font-family: "Beausite",sans-serif;
+font-weight: 300;
+font-style: normal;
+word-break: keep-all;
+-webkit-text-size-adjust: 100%;
+--swiper-theme-color: #007aff;
+--swiper-navigation-size: 44px;
+-webkit-font-smoothing: antialiased;
+font-size: 22px;
+line-height: 28px;
+padding: 0;
+box-sizing: border-box;
+color: #1B7060;
+grid-column: 2/span 3;
+margin: 0 0 68px;
 }
