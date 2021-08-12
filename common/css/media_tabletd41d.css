@@ -3,7 +3,7 @@
 /*============================================================*/
 
 
-@media only screen and (max-height:620px){
+@media only screen and (max-height:500px){
   #header .inner, #header.activeHeader .inner {
 
     display: none;
