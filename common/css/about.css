@@ -1423,6 +1423,9 @@ background: linear-gradient( to right, #000000 0%, #000000 32%, #000000 32%, #ff
     width: 2600px;
         background: linear-gradient( to right, #000000 0%, #000000 37%, #000000 37%, #ffffff00 100% );
 }
+.section {
+    padding: 20vh 1.6vh;
+}
 
 }
 
@@ -1434,6 +1437,11 @@ background: linear-gradient( to right, #000000 0%, #000000 32%, #000000 32%, #ff
    .section-quote__content {
        height: 500px;
    }
+   .home {
+     display:none;
+   }
+
+
 }
 .text-outline {
     -webkit-text-stroke-width: 2px;
