@@ -22,6 +22,9 @@ display:none;
     font-size: 14px;
     line-height: 14px;
 }
+.mainConWrap #section3 .mainTitleArea h2{
+  display:none;
+}
 .c-Item__content p {
     margin-bottom: 0;
     line-height: 1;
