@@ -63,6 +63,12 @@ div#grey {
     height: 800px;
 }
 }
+@media only screen and (max-height:700px){
+
+  .two.columns .column .txt {
+    font-size:11px !important;
+  }
+}
 @media only screen and (max-width:1024px){
 .pc {display:none !important;}
 .tablet {display:block !important;}
