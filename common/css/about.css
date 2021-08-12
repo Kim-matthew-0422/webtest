@@ -869,20 +869,11 @@ img.parallax-image {
     width: 46.3vh;
 }
 }
-@font-face {
-    font-family: 'Gotham-Black';
-    src: url('GothamGreek-Black.eot'); /* IE9 Compat Modes */
-    src: url('GothamGreek-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-		url('/GothamGreek-Black.woff2') format('woff2'),
-		url('GothamGreek-Black.woff') format('woff'), /* Pretty Modern Browsers */
-		url('GothamGreek-Black.ttf')  format('truetype'), /* Safari, Android, iOS */
-		url('GothamGreek-Black.svg#svgFontName') format('svg'); /* Legacy iOS */
-}
+
 @font-face {
     font-family: 'Gotham-Book';
     src: url('GothamGreek-Book.eot'); /* IE9 Compat Modes */
     src: url('GothamGreek-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-		url('/GothamGreek-Book.woff2') format('woff2'),
 		url('GothamGreek-Book.woff') format('woff'), /* Pretty Modern Browsers */
 		url('GothamGreek-Book.ttf')  format('truetype'), /* Safari, Android, iOS */
 		url('GothamGreek-Book.svg#svgFontName') format('svg'); /* Legacy iOS */
@@ -1145,7 +1136,7 @@ img.parallax-image {
     -webkit-transform: translateY(10px);
 	transform: translateY(10px);
 	opacity: 0;
-      	font-family: 'Gotham-Black',Helvetica,Arial,sans-serif;
+      	font-family: 'gotham-book',Helvetica,Arial,sans-serif;
 }
 img.figure-image.is-loaded {
     -o-object-fit: cover;
@@ -1167,7 +1158,7 @@ font-style: normal;
 text-rendering: optimizeLegibility;
 cursor: none;
 box-sizing: inherit;
-font-family: 'Gotham-Black',Helvetica,Arial,sans-serif;
+font-family: 'gotham-book',Helvetica,Arial,sans-serif;
 line-height: 1;
 position: relative;
 z-index: 1;
