@@ -64,10 +64,26 @@ div#grey {
 }
 }
 @media only screen and (max-height:700px){
-
+.car {
+  display:none;
+}
+#fullpage .icon_scroll span
+{
+  display:none;
+}
   .two.columns .column .txt {
     font-size:11px !important;
   }
+  .intro.an{
+    font-size:15px;
+  }
+  .main.an{
+    font-size:15px;
+  }
+  .simple.text .inner .main h8 {
+    font-size: 14px;
+
+}
 }
 @media only screen and (max-width:1024px){
 .pc {display:none !important;}
