@@ -3,6 +3,53 @@ let container = document.getElementById("scroll-content");
 console.log(container);
 
 
+
+
+var div1 = document.getElementsByClassName('naviBtn')[0];
+var div2 = document.getElementsByClassName('siteNavi hide')[0];
+var div3 = document.getElementsByClassName('siteNavi_pages hide')[0];
+var div4 = document.getElementsByClassName('siteNavi_links hide')[0];
+var div5 = document.getElementsByClassName('closeBtn siteNavi_closeBtn hide')[0];
+var div6 = document.getElementsByClassName('siteNavi_links hide')[0];
+
+var div7 = document.getElementsByClassName('siteNavi_bg')[0];
+var div8 = document.getElementsByClassName('closeBtn_area')[0];
+
+// set an event listener for it
+div1.addEventListener('click',function(){
+  div1.setAttribute("class", "naviBtn hide");
+  div2.setAttribute("class", "siteNavi");
+  div3.setAttribute("class", "siteNavi_pages");
+  div4.setAttribute("class", "siteNavi_links");
+  div5.setAttribute("class", "closeBtn siteNavi_closeBtn");
+  div6.setAttribute("class", "siteNavi_links");
+  div7.setAttribute("class", "siteNavi_bg open");
+
+});
+
+div8.addEventListener('click',function(){
+
+  div1.setAttribute("class", "naviBtn"
+
+
+
+
+
+
+
+);
+  div2.setAttribute("class", "siteNavi hide");
+  div3.setAttribute("class", "siteNavi_pages hide");
+  div4.setAttribute("class", "siteNavi_links hide");
+  div5.setAttribute("class", "closeBtn siteNavi_closeBtn hide");
+  div6.setAttribute("class", "siteNavi_links hide");
+  div7.setAttribute("class", "siteNavi_bg");
+  div8.setAttribute("class", "closeBtn_area");
+
+
+});
+
+
 ScrollTrigger.matchMedia({
 
   // large
@@ -19,91 +66,4 @@ ScrollTrigger.matchMedia({
       }
     })
 
-
   }});
-
-
-  if (!false) {
-    var __ry_imported = true;
-    (function() {
-      var installed = false;
-      var embedurl = 'https://tenor.com/embed/';
-      var canonical = document.querySelector("link[rel='canonical']");
-
-      function ready() {
-        if (!false) {
-          installed = true;
-          var elts = document.querySelectorAll('.tenor-embed:not([data-processed]), .tenor-gif-embed:not([data-processed])');
-          for (var i = 0; i < elts.length; ++i) {
-            e = elts[i];
-            e.setAttribute('data-processed', true);
-            var embedSubPath = e.getAttribute('data-postid');
-            if(!embedSubPath){
-              embedSubPath = e.getAttribute('data-type');
-            }
-            if(!embedSubPath){
-              embedSubPath = e.getAttribute('data-insights-term');
-              if(embedSubPath){
-                embedSubPath = 'insights/' + embedSubPath.replace(/\s+/g, '-');
-                embedSubPath += '?range=' + e.getAttribute('data-range');
-                embedSubPath += '&timestamp=' + e.getAttribute('data-timestamp');
-              }
-            }
-
-            var iframe = document.createElement('iframe');
-            iframe.setAttribute('frameborder','0');
-            iframe.setAttribute('allowtransparency','true');
-            iframe.setAttribute('allowfullscreen','true');
-            iframe.setAttribute('scrolling','no');
-            var root;
-            if (e.hasAttribute('data-height')) {
-              iframe.setAttribute('width',e.getAttribute('data-width'));
-              iframe.setAttribute('height',e.getAttribute('data-height'));
-              root = iframe;
-            } else {
-              var framewrapper = document.createElement('div')
-              var aspect = e.getAttribute('data-aspect-ratio') || 1.33;
-              e.setAttribute('style',
-                'width:' + e.getAttribute('data-width') + ';' +
-                'position:absolute;');
-              framewrapper.setAttribute('style',
-                'padding-top:' + (1/aspect)*100 + '%;');
-              iframe.setAttribute('style',
-                'position:absolute;top:0;left:0;width:100%;height:100%;')
-              framewrapper.appendChild(iframe);
-              root = framewrapper;
-            }
-            var url = embedurl + embedSubPath;
-            var sharemethod = (
-              e.getAttribute('data-share-method') || 'tenor');
-            if (sharemethod == 'host') {
-              var hosturl;
-              if (canonical) hosturl = canonical.href;
-              else hosturl = document.location.href;
-              url += '?canonicalurl=' + hosturl;
-            }
-            iframe.setAttribute('src',url);
-            e.innerHTML = '';
-            e.appendChild(root);
-          }
-        }
-      }
-
-      function readystatechange() {
-        if (document.readyState == 'complete') ready();
-      }
-
-      if (document.readyState == 'complete' || (
-          !document.attachEvent && document.readyState == 'interactive')) {
-        setTimeout(ready,1);
-      } else {
-        if (document.addEventListener) {
-          document.addEventListener('DOMContentLoaded',ready,false);
-          window.addEventListener('load',ready,false);
-        } else {
-          document.attachEvent('onreadystatechange',readystatechange);
-          window.attachEvent('onload',ready);
-        }
-      }
-    })();
-  }
