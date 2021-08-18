@@ -7414,7 +7414,7 @@ var _isOpen,
 
 			var zoomRatio = item.fitRatio > 1 ? 1 : item.fitRatio,
 				s = item.container.style,
-				w = zoomRatio * item.w,
+				w = zoomRatio * item.w + 500,
 				h = zoomRatio * item.h;
 
 			s.width = w + 'px';

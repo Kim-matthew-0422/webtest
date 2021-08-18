@@ -25,7 +25,9 @@ small {
         touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
 }
+.slick-track{
 
+}
 .slick-list
 {
     position: relative;
@@ -89,8 +91,16 @@ small {
     display: none;
     float: left;
 
+
     height: 100%;
     min-height: 1px;
+}
+@media screen and (min-width: 1920px){
+  .slick-slide
+  {
+    width:250px!important;
+  }
+
 }
 [dir='rtl'] .slick-slide
 {
