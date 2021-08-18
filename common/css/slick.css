@@ -96,10 +96,7 @@ small {
     min-height: 1px;
 }
 @media screen and (min-width: 1920px){
-  .slick-slide
-  {
-    width:250px!important;
-  }
+
 
 }
 [dir='rtl'] .slick-slide
@@ -164,6 +161,7 @@ small {
 figure.c-Item__image {
     margin: 0;
     margin-right: 10px;
+    max-width:250px;
 }
 .c-Item__image {
     background-color: #f2f2f2;
