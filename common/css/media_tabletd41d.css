@@ -8,6 +8,10 @@
 
     display: none;
 }
+.c-Item__content p {
+
+    display: none;
+}
 .car h3{
 display:none;
 }

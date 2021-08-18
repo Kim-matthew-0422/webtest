@@ -221,24 +221,11 @@ figure.c-Item__image {
     margin-bottom: 40px;
 }
 @media screen and (min-width:40em) {
-    .c-Item--vertical {
-    margin-bottom: 80px;
-}
+
 }@media screen and (min-width:75em) {
-    .c-Item--vertical {
-    margin-bottom: 95px;
-}
-}.c-Item--vertical .c-Item__image {
-    margin-bottom: 7px;
-}
-.c-Item--vertical .c-Item__list {
-    margin-bottom: 15px;
-}
-.c-Item--vertical .c-Item__title {
-    margin-bottom: 12px;
-}
+
 .m-slideshow.m-slideshow--multi.m-slideshow--multi--no-dots.slick-initialized.slick-slider {
-  margin: -60px 100px;
+  margin: 60px 100px;
 }
 }.module {
     border-top: 1px solid #333;
