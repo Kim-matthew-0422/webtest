@@ -161,7 +161,7 @@ small {
 figure.c-Item__image {
     margin: 0;
     margin-right: 10px;
-    max-width:250px;
+    max-width:200px;
 }
 .c-Item__image {
     background-color: #f2f2f2;
@@ -233,7 +233,7 @@ figure.c-Item__image {
 }@media screen and (min-width:75em) {
 
 .m-slideshow.m-slideshow--multi.m-slideshow--multi--no-dots.slick-initialized.slick-slider {
-  margin: 60px 100px;
+  margin-top:50px;
 }
 }.module {
     border-top: 1px solid #333;
