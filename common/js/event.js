@@ -62,7 +62,7 @@ ScrollTrigger.matchMedia({
         invalidateOnRefresh: true,
         pin: true,
         scrub: 1,
-        end: () => "+=" + (container.offsetWidth * 15)
+        end: () => "+=" + (container.offsetWidth * 4)
       }
     })
 

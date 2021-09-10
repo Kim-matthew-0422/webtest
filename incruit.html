@@ -97,95 +97,11 @@
 	</svg>
 <div id="wrap" class="sub">
 
-<div class="quick-sns-fix">
-	<a href="javascript:;" ></a>
-	<div>
-		<div>
-			<a href="https://www.linkedin.com/company/im-translation/" target="_blank" class="sn1"></a>
-			<a href="https://twitter.com/ImTranslation" target="_blank" class="sn2"></a>
-			<a href="https://www.facebook.com/IMTRANSLATION92" target="_blank" class="sn3"></a>
-			<a href="https://www.instagram.com/im_translation/" target="_blank" class="sn4"></a>
-			<a href="https://www.youtube.com/channel/UC-hIA9Nafr-b7a6M5cz7Y9g" target="_blank" class="sn5"></a>
-		</div>
-	</div>
-</div>
-<script>
-	if($(window).width() > 640){
 
-		$(".quick-sns-fix > a").mouseenter(function(){
-			if( !$(this).parent().hasClass("on") ){
-				$(this).parent().addClass("on");
-			}
-		});
-		$(".quick-sns-fix").mouseleave(function(){
-			$(this).removeClass("on");
-		});
-
-	}else{
-		$(".quick-sns-fix > a").click(function(){
-			$(this).parent().toggleClass("on");
-		});
-	}
-
-	setTimeout(function(){
-		$(".quick-sns-fix > a").addClass("st");
-	},800);
-
-	$(window).scroll(function(){
-		if( $(".quick-sns-fix").hasClass("on") ){
-			$(".quick-sns-fix").removeClass("on");
-		}
-	});
-
-</script>
 
 <div class="overlay"></div>
 
 <!--<a href="/bbs/board.php?tbl=contact_eng&chr=eng&mode=WRITE" class="btn_chat"><img src="/eng/images/common/icon/icon_chat.png" alt="1:1 문의" /></a>-->
-
-<!-- Channel Plugin Scripts -->
-<script>
-  (function() {
-    var w = window;
-    if (w.ChannelIO) {
-      return (window.console.error || window.console.log || function(){})('ChannelIO script included twice.');
-    }
-    var ch = function() {
-      ch.c(arguments);
-    };
-    ch.q = [];
-    ch.c = function(args) {
-      ch.q.push(args);
-    };
-    w.ChannelIO = ch;
-    function l() {
-      if (w.ChannelIOInitialized) {
-        return;
-      }
-      w.ChannelIOInitialized = true;
-      var s = document.createElement('script');
-      s.type = 'text/javascript';
-      s.async = true;
-      s.src = 'cdn.channel.io/plugin/ch-plugin-web.js';
-      s.charset = 'UTF-8';
-      var x = document.getElementsByTagName('script')[0];
-      x.parentNode.insertBefore(s, x);
-    }
-    if (document.readyState === 'complete') {
-      l();
-    } else if (window.attachEvent) {
-      window.attachEvent('onload', l);
-    } else {
-      window.addEventListener('DOMContentLoaded', l, false);
-      window.addEventListener('load', l, false);
-    }
-  })();
-
-  ChannelIO('boot', {
-    "pluginKey": "1247a473-c696-4734-a032-388586140c50"
-  });
-</script>
-<!-- End Channel Plugin -->
 
 <div id="allMenu">
 	<div class="allH">
@@ -195,7 +111,7 @@
 		<ul>
 			<li><a href="service"><i class="icon icon_01"></i>Translation</a></li>
 			<li><a href="interpretation"><i class="icon icon_02"></i>Interpretation</a></li>
-			<li><a href="bbs/boardca79"><i class="icon icon_03"></i>Get quotes</a></li>
+			<li><a href="bbs/boardca79" title= "Contact us"><i class="icon icon_03"></i>Contact</a></li>
 			<li><a href="aboutus"><i class="icon icon_04"></i>About Us</a></li>
 			<li><a href="incruit" ><i class="icon icon_05"></i>Careers</a></li>
 			<li><a href="index" ><i class="icon icon_06"></i>Blog</a></li>

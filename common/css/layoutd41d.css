@@ -450,7 +450,7 @@ li.site-nav__link a:hover {
 
 
 .mainConWrap .mainTitleArea {margin-left:6vh;margin-bottom:6vh; text-align:center; transform:translateY(30px);-webkit-transform:translateY(30px); opacity: 0; filter:alpha(opacity=0); -mox-opacity:0;}
-.mainConWrap .mainTitleArea h2 {font-size:24px; font-weight:700; color:#fff; letter-spacing:1.5px;}
+.mainConWrap .mainTitleArea h2 {font-size:46px; font-weight:700; color:#fff; letter-spacing:1.5px;}
 .mainConWrap .mainTitleArea p {padding-top:1vh;  font-size:18px; color:#f0f0f0; letter-spacing:-0.5px; word-break:keep-all;}
 .mainConWrap .tb {height:100%;}
 .mainConWrap .tb .tbc {vertical-align:middle;}

@@ -153,7 +153,7 @@ small {
 .c-Item__content p {
     margin-bottom: 0;
     line-height: 1.7;
-    font-size: 15px;
+    font-size: 16px;
     font-size: .8075rem;
     color: #FFFFFF;
     margin-right: 20px;
@@ -161,7 +161,7 @@ small {
 figure.c-Item__image {
     margin: 0;
     margin-right: 10px;
-    max-width:200px;
+    max-width:275px;
 }
 .c-Item__image {
     background-color: #f2f2f2;
@@ -211,7 +211,7 @@ figure.c-Item__image {
 .c-Item__list a {
             COlor: #bd2b44;
     text-decoration: none;
-    font-size:10px;
+    font-size:17px;
     font-weight:bold;
 }
 .c-Item__link {

@@ -116,50 +116,6 @@
 
 <!--<a href="/bbs/board.php?tbl=contact_eng&chr=eng&mode=WRITE" class="btn_chat"><img src="/eng/images/common/icon/icon_chat.png" alt="1:1 문의" /></a>-->
 
-<!-- Channel Plugin Scripts -->
-<script>
-  (function() {
-    var w = window;
-    if (w.ChannelIO) {
-      return (window.console.error || window.console.log || function(){})('ChannelIO script included twice.');
-    }
-    var ch = function() {
-      ch.c(arguments);
-    };
-    ch.q = [];
-    ch.c = function(args) {
-      ch.q.push(args);
-    };
-    w.ChannelIO = ch;
-    function l() {
-      if (w.ChannelIOInitialized) {
-        return;
-      }
-      w.ChannelIOInitialized = true;
-      var s = document.createElement('script');
-      s.type = 'text/javascript';
-      s.async = true;
-      s.src = 'common/js/ch-plugin-web.js';
-      s.charset = 'UTF-8';
-      var x = document.getElementsByTagName('script')[0];
-      x.parentNode.insertBefore(s, x);
-    }
-    if (document.readyState === 'complete') {
-      l();
-    } else if (window.attachEvent) {
-      window.attachEvent('onload', l);
-    } else {
-      window.addEventListener('DOMContentLoaded', l, false);
-      window.addEventListener('load', l, false);
-    }
-  })();
-
-  ChannelIO('boot', {
-    "pluginKey": "1247a473-c696-4734-a032-388586140c50"
-  });
-</script>
-<!-- End Channel Plugin -->
-
 <div id="allMenu">
 	<div class="allH">
 		<a href="javascript:closeAllmenu();" class="btn_close"><img src="images/common/btn/btn_close.png" alt="닫기" /></a>
@@ -168,7 +124,7 @@
 		<ul>
 			<li><a href="service"><i class="icon icon_01"></i>Translation</a></li>
 			<li><a href="interpretation"><i class="icon icon_02"></i>Interpretation</a></li>
-			<li><a href="bbs/boardca79"><i class="icon icon_03"></i>Get quotes</a></li>
+			<li><a href="bbs/boardca79" title= "Contact us"><i class="icon icon_03"></i>Contact</a></li>
 			<li><a href="aboutus"><i class="icon icon_04"></i>About Us</a></li>
 			<li><a href="incruit" ><i class="icon icon_05"></i>Careers</a></li>
 			<li><a href="index" ><i class="icon icon_06"></i>Blog</a></li>
@@ -290,6 +246,7 @@
 			</div>
 			<div class="main an ">
 				<p>We translate projects with efficiency, accuracy, and speed to deliver more value to your business. Our services provides options suitable for all situations. We can create anything from creative menus to research papers. Teams, knowledge, technology, and creativity, we got those. <br/><br/> </p>
+        <a class="purple button" href="mailto:lion@Imtranslation.com">Contact</a>
 			</div>
 
 		</div>
