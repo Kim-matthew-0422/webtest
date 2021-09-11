@@ -1828,10 +1828,12 @@ div.login_foot {clear:both; text-align:center; margin-top:20px;}
   box-shadow: 0 0 24px 0 #00ACED;
 }
 
-.github:hover, .github:focus {
-  color: #4183c4;
-  box-shadow: 0 0 24px 0 #4183c4;
+
+.homepage:hover, .homepage:focus {
+  color: #172929;
+  box-shadow: 0 0 24px 0 #172929;
 }
+
 
 .linkedin:hover, .linkedin:focus {
   color: #bd081c;
