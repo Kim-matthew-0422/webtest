@@ -1784,10 +1784,33 @@ div.login_foot {clear:both; text-align:center; margin-top:20px;}
 .svg--source {
   display: none;
 }
+.sns{
+  height:100%;
+  position:fixed;
+  width:70px;
+  top: calc(75% - 20px);
+  z-index:101;
+  display:contents;
+}
+@media only screen and (min-width:1024px){
+
+  .sns{
+    display:none;
+  }
+}
 
 .svg--icon {
   width: 100%;
   max-width: 5rem;
+  height: 100%;
+  max-height: 5rem;
+  display: block;
+  margin: 0 auto;
+  fill: currentColor;
+}
+.svg--icon2 {
+  width: 100%;
+  max-width: 1.5rem;
   height: 100%;
   max-height: 5rem;
   display: block;
@@ -1815,6 +1838,96 @@ div.login_foot {clear:both; text-align:center; margin-top:20px;}
   box-shadow: 0 0 8px 0 rgba(50, 50, 50, 0.15);
   border-radius: 50%;
   transition: 250ms;
+}
+.shareini {
+  width: 2.5rem;
+  height: 2.5rem;
+  float: left;
+  margin: 0.5rem 1rem 0.5rem 0;
+  color: #353c4a;
+  border: 0.125rem solid #f3f3f3;
+  box-shadow: 0 0 8px 0 rgba(50, 50, 50, 0.15);
+  border-radius: 50%;
+  transition: 250ms;
+  position: fixed;
+  left:12px;
+    bottom: 212px;
+    z-index:500;
+}
+.sharetw {
+  width: 2.5rem;
+  height: 2.5rem;
+  float: left;
+  margin: 0.5rem 1rem 0.5rem 0;
+  color: #353c4a;
+  border: 0.125rem solid #f3f3f3;
+  box-shadow: 0 0 8px 0 rgba(50, 50, 50, 0.15);
+  border-radius: 50%;
+  transition: 250ms;
+  position: fixed;
+  left:12px;
+    bottom: 172px;
+    z-index:500;
+}
+.share2 {
+  width: 2.5rem;
+  height: 2.5rem;
+  float: left;
+  margin: 0.5rem 1rem 0.5rem 0;
+  color: #353c4a;
+  border: 0.125rem solid #f3f3f3;
+  box-shadow: 0 0 8px 0 rgba(50, 50, 50, 0.15);
+  border-radius: 50%;
+  transition: 250ms;
+  position: fixed;
+  left:12px;
+  bottom: 12px;
+    z-index:500;
+}
+.share3 {
+  width: 2.5rem;
+  height: 2.5rem;
+  float: left;
+  margin: 0.5rem 1rem 0.5rem 0;
+  color: #353c4a;
+  border: 0.125rem solid #f3f3f3;
+  box-shadow: 0 0 8px 0 rgba(50, 50, 50, 0.15);
+  border-radius: 50%;
+  transition: 250ms;
+  position: fixed;
+  left:12px;
+    bottom: 52px;
+      z-index:500;
+}
+.share4 {
+  width: 2.5rem;
+  height: 2.5rem;
+  float: left;
+  margin: 0.5rem 1rem 0.5rem 0;
+  color: #353c4a;
+  border: 0.125rem solid #f3f3f3;
+  box-shadow: 0 0 8px 0 rgba(50, 50, 50, 0.15);
+  border-radius: 50%;
+  transition: 250ms;
+  position: fixed;
+  left:12px;
+    bottom: 92px;
+      z-index:500;
+}
+.share5 {
+  width: 2.5rem;
+  height: 2.5rem;
+  float: left;
+  margin: 0.5rem 1rem 0.5rem 0;
+  color: #353c4a;
+  border: 0.125rem solid #f3f3f3;
+  box-shadow: 0 0 8px 0 rgba(50, 50, 50, 0.15);
+  border-radius: 50%;
+  transition: 250ms;
+  position: fixed;
+  left:12px;
+    bottom: 132px;
+      z-index:500;
 }
 .share:last-child {
   margin-right: 0;

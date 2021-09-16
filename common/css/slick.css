@@ -164,7 +164,6 @@ figure.c-Item__image {
     max-width:200px;
 }
 .c-Item__image {
-    background-color: #f2f2f2;
     position: relative;
 }
 .c-Item__image a:after {
@@ -284,6 +283,15 @@ figure.c-Item__image {
     margin-bottom: 35px;
 }
 }
+@media screen and (max-height:500px) {
+  .c-Item__list a {
+      COlor: #bd2b44;
+      text-decoration: none;
+      font-size: 9px;
+      font-weight: bold;
+  }
+}
+
 }@media screen and (max-width:27.4375em) {
     .c-gallery--slideshow {
     margin-left: -10px;
