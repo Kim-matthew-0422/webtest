@@ -1840,8 +1840,8 @@ div.login_foot {clear:both; text-align:center; margin-top:20px;}
   transition: 250ms;
 }
 .shareini {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 1.7rem;
+  height: 1.7rem;
   float: left;
   margin: 0.5rem 1rem 0.5rem 0;
   color: #353c4a;
@@ -1851,12 +1851,12 @@ div.login_foot {clear:both; text-align:center; margin-top:20px;}
   transition: 250ms;
   position: fixed;
   left:12px;
-    bottom: 212px;
+    bottom: 180px;
     z-index:500;
 }
 .sharetw {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 1.7rem;
+  height: 1.7rem;
   float: left;
   margin: 0.5rem 1rem 0.5rem 0;
   color: #353c4a;
@@ -1866,12 +1866,12 @@ div.login_foot {clear:both; text-align:center; margin-top:20px;}
   transition: 250ms;
   position: fixed;
   left:12px;
-    bottom: 172px;
+    bottom: 150px;
     z-index:500;
 }
 .share2 {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 1.7rem;
+  height: 1.7rem;
   float: left;
   margin: 0.5rem 1rem 0.5rem 0;
   color: #353c4a;
@@ -1881,12 +1881,12 @@ div.login_foot {clear:both; text-align:center; margin-top:20px;}
   transition: 250ms;
   position: fixed;
   left:12px;
-  bottom: 12px;
+  bottom: 30px;
     z-index:500;
 }
 .share3 {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 1.7rem;
+  height: 1.7rem;
   float: left;
   margin: 0.5rem 1rem 0.5rem 0;
   color: #353c4a;
@@ -1896,12 +1896,12 @@ div.login_foot {clear:both; text-align:center; margin-top:20px;}
   transition: 250ms;
   position: fixed;
   left:12px;
-    bottom: 52px;
+    bottom: 60px;
       z-index:500;
 }
 .share4 {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 1.7rem;
+  height: 1.7rem;
   float: left;
   margin: 0.5rem 1rem 0.5rem 0;
   color: #353c4a;
@@ -1911,12 +1911,12 @@ div.login_foot {clear:both; text-align:center; margin-top:20px;}
   transition: 250ms;
   position: fixed;
   left:12px;
-    bottom: 92px;
+    bottom: 90px;
       z-index:500;
 }
 .share5 {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 1.7rem;
+  height: 1.7rem;
   float: left;
   margin: 0.5rem 1rem 0.5rem 0;
   color: #353c4a;
@@ -1926,7 +1926,7 @@ div.login_foot {clear:both; text-align:center; margin-top:20px;}
   transition: 250ms;
   position: fixed;
   left:12px;
-    bottom: 132px;
+    bottom: 120px;
       z-index:500;
 }
 .share:last-child {
