@@ -298,7 +298,7 @@ figure.c-Item__image {
 }
 
 }.m-slideshow--multi .m-slideshow__slide {
-    padding: 0 10px;
+    padding: 0 30px;
 }
 @media screen and (max-width:39.9375em) {
     .m-slideshow--multi .c-Item {
