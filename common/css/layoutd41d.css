@@ -82,6 +82,18 @@ div#grey {
 #grey .hh .intro p {
     color: white;
 }
+div#grey2 {
+    background-color: #272424;
+    height:100vh;
+    color:white!important;
+}
+div#white {
+
+    height:100vh;
+}
+#grey2 .hh .intro p {
+    color: white;
+}
 .posts article .urf h6 {
     font-size: 13px;
     line-height: 20px;
@@ -462,7 +474,7 @@ li.site-nav__link a:hover {
 .mainConWrap #section2 .fp-tableCell,
 .mainConWrap #section3 .fp-tableCell,
 .mainConWrap #section4 .fp-tableCell {display:table-cell; vertical-align:middle;}
-
+.mainConWrap #section6 .fp-tableCell {display:table-cell; vertical-align:middle;}
 .mainConWrap #section2 {}
 
 
@@ -792,7 +804,13 @@ canvas {width: 100%;height: 100vh;}
 	.future .quick-line.hideme {opacity: 1 !important;}
 
   div#grey{
-    height:1500px;
+    height:1100px;
+  }
+  div#grey2{
+    height:140vh;
+  }
+  div#white{
+    height:140vh;
   }
 
 	.hh {padding: 100px 0 100px;}
@@ -1895,6 +1913,7 @@ div.login_foot {clear:both; text-align:center; margin-top:20px;}
   border-radius: 50%;
   transition: 250ms;
   position: fixed;
+
   left:12px;
     bottom: 60px;
       z-index:500;
