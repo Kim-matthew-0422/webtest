@@ -471,7 +471,7 @@ li.site-nav__link a:hover {
 
 
 .mainConWrap #section3 {text-align:center;}
-.mainConWrap #section3 .mainTitleArea {margin-bottom:0vh;}
+.mainConWrap #section3 .mainTitleArea {margin-bottom:10vh;}
 .mainConWrap #section3 .mainTitleArea h2 {color:#222;}
 .mainConWrap #section3 .mainTitleArea p {color:#555;}
 .mainConWrap #section3 .clientCon {transform:translateY(30px);-webkit-transform:translateY(30px); opacity: 0; filter:alpha(opacity=0); -mox-opacity:0;}
