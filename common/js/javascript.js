@@ -879,7 +879,7 @@ function Board_Delete_Check(){
 jQuery(function($) {
 
   inView('.an').on('enter', function(el) { $(el).addClass('in'); });
-
+inView('.an').on('exit', function(el) { $(el).removeClass('in'); });
   inView('.xn').on('enter', function(el) { $(el).closest('article').find('.a-image').removeClass('out').addClass('in'); });
   inView('.xn').on('exit', function(el) { $(el).closest('article').find('.a-image').removeClass('in').addClass('out'); });
   inView('.xn').on('enter', function(el) { $(el).closest('article').find('.a-image-sm').removeClass('out').addClass('in'); });
