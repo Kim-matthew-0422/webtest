@@ -1,0 +1,11 @@
+<svg width="573" height="496" xmlns="http://www.w3.org/2000/svg" fill="none">
+
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_1" stroke-linecap="square" stroke="#DED5CE" d="m132.99,37.6l0,457.8m148.91,-457.8l0,457.8m148.92,-457.8l0,457.8m-381.22,-228.9l465.8,0m-465.8,-149.62l465.8,0m-465.8,299.24l465.8,0"/>
+  <path id="svg_2" stroke-linejoin="round" stroke-linecap="round" stroke-width="3" stroke="#C1B0A3" d="m14,416l119.67,-151.94l148.84,75.97l124.55428,-61.23518l152.93572,-222.79482"/>
+  <path id="svg_3" stroke-width="3" stroke="#C1B0A3" fill="#C1B0A3" d="m133,278.5a11.5,11.5 0 1 0 0,-23a11.5,11.5 0 0 0 0,23zm-120,149a11.5,11.5 0 1 0 0,-23a11.5,11.5 0 0 0 0,23z"/>
+  <path id="svg_4" fill-opacity="0.48" fill="#C1B0A3" d="m409.24404,297.42268a21,21 0 1 0 0,-42a21,21 0 0 0 0,42z" clip-rule="evenodd" fill-rule="evenodd"/>
+  <path transform="rotate(-180 420.375 197.625)" id="svg_5" stroke-width="3" stroke="#C1B0A3" fill="#C1B0A3" d="m430.375,130.125a11.5,11.5 0 1 0 0,-23a11.5,11.5 0 0 0 0,23zm129,-62a11.5,11.5 0 1 0 0,-23a11.5,11.5 0 0 0 0,23zm-278,282a11.5,11.5 0 1 0 0,-23a11.5,11.5 0 0 0 0,23z"/>
+ </g>
+</svg>

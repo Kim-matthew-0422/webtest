@@ -4270,6 +4270,11 @@ img {
     .cs-container {
     width: 1560px;
 }}
+
+section.cs-hero {
+    height: 100vh;
+    background-color: #1b1b1b;
+}
 .cs-parts__img-wrapper.cs-parts__img-wrapper_video.cs-js-animation-item.an.in {
     visibility: visible;
     opacity: 1;
@@ -4447,6 +4452,45 @@ img.cs-lazy.cs-js-animation-item.loaded.an.in {
 .cs-js-animation-item.an.in{    visibility: visible;
   opacity: 1;
   transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0s, transform 1s cubic-bezier(0.5, 0, 0, 1) 0s;
+
+}
+.cs-hero__illustration-item.cs-hero__illustration-item_1.cs-js-animation-item.an.in {
+
+  opacity: 1;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0s, transform 1s cubic-bezier(0.5, 0, 0, 1) 0s;
+
+}
+.cs-hero__illustration-item.cs-hero__illustration-item_1.cs-js-animation-item.an {
+  opacity: 0;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 40, 0, 1);
+  transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0s, transform 1s cubic-bezier(0.5, 0, 0, 1) 0s;
+
+}
+.cs-hero__illustration-item.cs-hero__illustration-item_2.cs-js-animation-item.an.in {
+
+  opacity: 1;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transition: opacity 1.7s cubic-bezier(0.5, 0, 0, 1) 0s, transform 1s cubic-bezier(0.5, 0, 0, 1) 0s;
+
+}
+.cs-hero__illustration-item.cs-hero__illustration-item_2.cs-js-animation-item.an {
+  opacity: 0;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 40, 0, 1);
+  transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0s, transform 1s cubic-bezier(0.5, 0, 0, 1) 0s;
+
+}
+.cs-hero__illustration-item.cs-hero__illustration-item_3.cs-js-animation-item.an.in {
+
+  opacity: 1;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transition: opacity 2.5s cubic-bezier(0.5, 0, 0, 1) 0s, transform 1s cubic-bezier(0.5, 0, 0, 1) 0s;
+
+}
+.cs-hero__illustration-item.cs-hero__illustration-item_3.cs-js-animation-item.an {
+  opacity: 0;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 40, 0, 1);
   transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0s, transform 1s cubic-bezier(0.5, 0, 0, 1) 0s;
 
 }
