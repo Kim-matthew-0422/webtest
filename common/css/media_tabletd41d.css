@@ -33,8 +33,9 @@ rem
 
   }
   img.mobile {
-    width: 40%;
+    width: 37%;
     margin: auto;
+    margin-top:-55px;
 }
   .car{
     display: none;
