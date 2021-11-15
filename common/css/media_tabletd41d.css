@@ -4,6 +4,13 @@
 
 
 @media only screen and (max-height:500px){
+  .cs-speed__item {
+    display: flex;
+    align-items: top;
+    margin: 0 0 0.625
+rem
+;
+}
   .filler {
       padding-top: 25vh;
   }
