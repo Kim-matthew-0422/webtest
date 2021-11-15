@@ -2,10 +2,10 @@ $(document).ready(function(){
 	$('#fullpage').fullpage({
 		//responsiveWidth: 620,
         responsiveAutoHeight: 800,
-		anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6'],
+		anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7','page8','page9'],
 		navigation: true,
 		navigationPosition: 'right',
-		navigationTooltips: ['IM', 'BUSINESS', 'CLIENT', 'RECRUITMENT', 'INFO'],
+		navigationTooltips: ['IM', 'BUSINESS', 'CLIENT', 'RECRUITMENT', 'CREATIVE','SUPPORT','DOCUMENTS','SOCIAL MEDIA','COMPANY'],
 		showActiveTooltip:true,
 		onLeave: function(index, nextIndex, direction) {
 			if (nextIndex > 1 && direction == 'down') {
