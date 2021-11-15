@@ -4,9 +4,47 @@
 
 
 @media only screen and (max-height:500px){
+  .filler {
+      padding-top: 25vh;
+  }
+  .cs-features__img {
+    display: none;
+}
+
+
+  .cs-section-header {
+    margin: 0
+ auto 35px
+;
+    max-width: 640px
+;
+    text-align: center;
+}
+  a.purple.button {
+    width:134px;
+    height:42px;
+
+  }
+  img.mobile {
+    width: 40%;
+    margin: auto;
+}
   .car{
     display: none;
   }
+  .cs-features {
+    padding: 20px
+ 0 0;
+}
+a.purple.button {
+  margin: 13px 0 0 0;
+}
+  .cs-hero {
+    padding: 20px
+ 0 0;
+    background: #f2f4f5;
+    overflow: hidden;
+}
   #header .inner, #header.activeHeader .inner {
 
     display: none;
@@ -72,7 +110,11 @@ div#grey {
   .car {
      margin: 0 0 0 !important; */
 }
-
+.cs-features__section {
+    padding: 5px
+ 0;
+    margin: 0 auto;
+}
 #fullpage .icon_scroll span
 {
   display:none;
@@ -90,6 +132,18 @@ div#grey {
     font-size: 14px;
 
 }
+.cs-speed__item-text {
+    font-size: 1.2rem;
+    padding-left: 20px;
+;
+}
+img.cs-lazy.cs-js-animation-item.loaded.an.in {
+    opacity: 0;
+}
+path {
+  padding-left:20px;
+}
+
 }
 @media only screen and (max-width:1024px){
 .pc {display:none !important;}

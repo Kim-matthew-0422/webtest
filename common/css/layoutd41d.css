@@ -3596,11 +3596,11 @@ img {
     position: absolute;
     max-width: 100%}
 .cs-features__illustration-item_1 {
-    right: 3.75254%;
-    width: 32.75862%;
-    bottom: 17.26755%;
-    height: 43.074%;
-    box-shadow: 0px 20px 30px rgba(0, 0, 0, .03);
+  right: -2.24746%;
+  width: 32.75862%;
+  bottom: 4.26755%;
+  height: 43.074%;
+  box-shadow: 0px 20px 30px rgb(0 0 0 / 3%);
 }
 .cs-features__illustration-item_2 {
     right: 31.54158%;
