@@ -16,6 +16,7 @@
  * Licensed under the MIT license
  */
 ;
+
 (function (root, factory) {
     if (typeof define === 'function' && define.amd) {
         // AMD
@@ -30,6 +31,7 @@
     }
 }(this, function ($) {
     'use strict';
+
 
     var Plugin,
         defaults = {
