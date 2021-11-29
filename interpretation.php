@@ -67,7 +67,7 @@
 			</div>
 			<div class="main an ">
 				<p>I'm Translation provides seven different sorts of specialized interpretation services, each with its own set of equipment. Our employees have the necessary expertise and experience to deal with a variety of events and conditions. Send us a note for further information. </p>
-				<p><a class="purple button" href="mailto:lion@Imtranslation.com">Contact</a></p>
+				<p><a class="purple button" href="/member/bbs/board.php?tbl=contact_eng&chr=eng&mode=WRITE">Contact</a></p>
 			</div>
 		</div>
 	</div>
@@ -278,96 +278,7 @@
 	</div>
 
 <!-- foot-->
-<div id="foot">
-	<script type="text/javascript">
-function toggle(layer_id, opt)
-{
-	var layer = document.getElementById(layer_id);
-
-	if (opt == "view"){
-		layer.style.display = "block";
-		document.fhead.mb_id.focus();
-	}else if(opt == "hide")
-		layer.style.display = "none";
-}
-
-function fhead_submit(f)
-{
-    if (!f.mb_id.value) {
-        alert("회원아이디를 입력하십시오.");
-        f.mb_id.focus();
-        return false;
-    }
-
-    if (!f.mb_pass.value) {
-        alert("패스워드를 입력하십시오.");
-        f.mb_pass.focus();
-        return false;
-    }
-
-    f.action = 'https://isiskorea.com/member/login.php';
-    return true;
-}
-</script>
-
-<!-- 로그인 전 외부로그인 시작 -->
-<form name="fhead" method="post" onsubmit="return fhead_submit(this);" style="margin:0;padding:0; z-index:200;">
-  <input type="hidden" name="URL" value="service">
-  <input type="hidden" name="mode" value="Login">
-  <div class="divbox" id="box" style="display:none;">
-    <div class="login_center" name="login_body">
-      <div id="p_input">
-        <ul>
-          <li class="mgB5">
-            <span class="label">ID</span> <input name="mb_id" value="ID" type="text" maxlength="20" itemname="아이디" onmouseover="this.focus;" onFocus="this.value='';" tabindex='1' class="text">
-          </li>
-          <li style="margin-top:4px; ">
-            <span class="label">PASSWORD</span> <input type="password" name="mb_pass" itemname="비밀번호" value="" maxlength="12" onmouseover="this.focus;" onFocus="this.value='';" class="text" xstyle="background-image:url('skin/outlogin/login_v2/images/pw');" tabindex='2'>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div name="login_foot" class="login_foot">
-  		<input type="submit" class="button btn_red" value="LOGIN" onClick=''>&nbsp;
-  		<input type="button" class="button btn_black rebod" value="CANCEL" onClick="javascript:toggle('box', 'hide');" />
-    </div>
-  </div>
-</form>
-
-<div class="footWrap">
-   <div class="inner">
-		<ul class="f_util">
-			<li><a href="https://isiskorea.com/eng/member/privacy.php">Privacy Policy</a></li>
-			<li><a href="bbs/boardca79?tbl=contact_eng&amp;chr=eng&amp;mode=WRITE">Get quotes</a></li>
-			<li><a href="aboutus">About ISIS</a></li>
-		</ul>
-		<address>
-			<div class="pct">
-				<span>ISIS Korea, Inc.</span>
-				<span>CEO : Jang Seok-Keun</span>
-				<span>Address : 3F, Jiho Bldg., 30, Bangbaejungang-ro, Seocho-gu, South Korea</span>
-				<span>TEL : +82-2-3787-0111</span>
-				<span>E-mail : Lion@imtranslation.com&nbsp; / &nbsp;Lion@imtranslation.com</span>
-			</div>
-			<div class="mobile">
-				<span>ISIS Korea, Inc.</span>
-				CEO : Jang Seok-Keun
-				<br />
-				Address : 3F, Jiho Bldg., 30, Bangbaejungang-ro, Seocho-gu, South Korea
-				<br />
-				<span>TEL : +82-2-3787-0111</span><br />
-				E-mail : Lion@imtranslation.com&nbsp; / &nbsp;Lion@imtranslation.com
-			</div>
-		</address>
-		<p class="copy">
-			COPYRIGHT(C) ISIS Korea. ALL RIGHTS RESERVED.
-			<span class="secret">
-								<a href="javascript:toggle('box', 'view');">
-								<img src="images/common/icon/icon_secret_sub.png" alt="" class="imgC" /></a>
-			</span>
-		</p>
-    </div>
-</div>    </div>
+<?php include "common/inc/footer.php"; ?>
 <!-- /foot-->
 </div>
 </body>
