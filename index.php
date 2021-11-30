@@ -290,7 +290,7 @@
 
     <section class="cs-features" id="features"><div class="cs-container"><div class="cs-features__section"><div class="cs-features__row"><div class="cs-features__content"><h3>Intensive care and technical support.</h3><p>Our team offers intensive support and answers, whenever and wherever. </p>
       <div class="main an in">
-        <p><a class="purple button" href="bbs/boardca79" title = "more information about our career and availability">Contact</a></p>
+        <p><a class="purple button" href="/member/bbs/board.php?tbl=contact_eng&chr=eng&mode=WRITE" title = "more information about our career and availability">Contact</a></p>
       </div>
       <ul class="cs-speed  cs-js-animation" data-sr-interval="60" data-sr-duration="1000" data-sr-origin="bottom" data-sr-distance="40">
         <li class="cs-speed__item cs-js-animation-item an" data-sr-id="45"><span class="cs-speed__item-icon">          <picture>
